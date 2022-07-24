@@ -89,6 +89,29 @@
 		},
 		{
 			"name": "BookingIds",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4217c8bd-4e07-4f6f-97c8-11b199649f7a",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"const response = pm.response.json();\r",
+							"\r",
+							"console.log(response.bookingid);\r",
+							"console.log(response['bookingid']);\r",
+							"pm.test(\"bookingid should be 2172,1417\",()=>{\r",
+							"    pm.expect(1).to.eql(1);\r",
+							"\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "4b1323fd-5f75-441b-8d93-8c2b84756f07",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -106,7 +129,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{herouk URL}}booking",
+					"raw": "{{herouk URL}}booking?checkout=2022-08-28",
 					"host": [
 						"{{herouk URL}}booking"
 					],
@@ -132,8 +155,7 @@
 						{
 							"key": "checkout",
 							"value": "2022-08-28",
-							"type": "text",
-							"disabled": true
+							"type": "text"
 						}
 					]
 				}
@@ -566,7 +588,7 @@
 	],
 	"variable": [
 		{
-			"id": "63984406-e9cd-4c22-82ef-1267fc67cebd",
+			"id": "b272e04c-ee81-4bfa-8b79-686e306af435",
 			"value": "",
 			"disabled": true
 		}
