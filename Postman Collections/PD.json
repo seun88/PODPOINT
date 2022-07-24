@@ -559,7 +559,7 @@
 						}
 					}
 				},
-				"url": "{{herouk URL}}"
+				"url": "{{herouk URL}}ping"
 			},
 			"response": []
 		}
@@ -588,7 +588,7 @@
 	],
 	"variable": [
 		{
-			"id": "b272e04c-ee81-4bfa-8b79-686e306af435",
+			"id": "da6519c5-a367-484a-ba38-b57bdedb486f",
 			"value": "",
 			"disabled": true
 		}
