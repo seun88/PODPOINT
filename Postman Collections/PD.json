@@ -142,6 +142,23 @@
 		},
 		{
 			"name": "Bookingid",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "10d5ee81-e066-4466-9f09-b0bfcf92b299",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "a137f913-3aff-41b8-920b-836a64c5b543",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -169,7 +186,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "59"
+							"value": "703"
 						}
 					]
 				}
@@ -549,7 +566,7 @@
 	],
 	"variable": [
 		{
-			"id": "82afe934-b9c8-4afb-b1ab-0f483e0b2191",
+			"id": "63984406-e9cd-4c22-82ef-1267fc67cebd",
 			"value": "",
 			"disabled": true
 		}
