@@ -25,7 +25,7 @@
 					}
 				}
 			],
-			"_postman_id": "9d35729a-33c1-4585-ad2f-5c564c4f442d",
+			"id": "9d35729a-33c1-4585-ad2f-5c564c4f442d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -67,7 +67,7 @@
 					}
 				}
 			],
-			"_postman_id": "28d3e029-71de-43fb-ba59-805da2462359",
+			"id": "28d3e029-71de-43fb-ba59-805da2462359",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "BookingIds",
-			"_postman_id": "4b1323fd-5f75-441b-8d93-8c2b84756f07",
+			"id": "4b1323fd-5f75-441b-8d93-8c2b84756f07",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Bookingid",
-			"_postman_id": "a137f913-3aff-41b8-920b-836a64c5b543",
+			"id": "a137f913-3aff-41b8-920b-836a64c5b543",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -169,8 +169,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "59",
-							"type": "string"
+							"value": "59"
 						}
 					]
 				}
@@ -208,7 +207,7 @@
 					}
 				}
 			],
-			"_postman_id": "6da20d00-49dc-4e93-a98e-9c90abf992db",
+			"id": "6da20d00-49dc-4e93-a98e-9c90abf992db",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -279,7 +278,7 @@
 					}
 				}
 			],
-			"_postman_id": "fa7c66a5-3c2c-4157-bb92-3f134abf5a9b",
+			"id": "fa7c66a5-3c2c-4157-bb92-3f134abf5a9b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -332,8 +331,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "4784",
-							"type": "string"
+							"value": "4884"
 						}
 					]
 				}
@@ -359,7 +357,7 @@
 					}
 				}
 			],
-			"_postman_id": "d18c8892-ae3e-4572-b956-8415a0f584e5",
+			"id": "d18c8892-ae3e-4572-b956-8415a0f584e5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -406,8 +404,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "4784",
-							"type": "string"
+							"value": "4784"
 						}
 					]
 				}
@@ -438,7 +435,7 @@
 					}
 				}
 			],
-			"_postman_id": "fa097312-d07d-418b-8ce3-430c961c097d",
+			"id": "fa097312-d07d-418b-8ce3-430c961c097d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
 				"disabledSystemHeaders": {
@@ -498,8 +495,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "821",
-							"type": "string"
+							"value": "821"
 						}
 					]
 				}
@@ -508,7 +504,7 @@
 		},
 		{
 			"name": "PING health check",
-			"_postman_id": "2ef3208e-2504-4f49-ba3c-7ba75f794f9d",
+			"id": "2ef3208e-2504-4f49-ba3c-7ba75f794f9d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -553,9 +549,8 @@
 	],
 	"variable": [
 		{
-			"id": "4dcd12ba-c0f2-4d4b-9fc4-53dd5f4ccb62",
+			"id": "82afe934-b9c8-4afb-b1ab-0f483e0b2191",
 			"value": "",
-			"type": "string",
 			"disabled": true
 		}
 	]
