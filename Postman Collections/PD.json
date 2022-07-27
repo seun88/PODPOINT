@@ -19,7 +19,9 @@
 							"\r",
 							"pm.test(\"Response time is less than 200ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});"
+							"});\r",
+							"\r",
+							"postman.setNextRequest(\"BookingIds\");"
 						],
 						"type": "text/javascript"
 					}
@@ -501,7 +503,7 @@
 	],
 	"variable": [
 		{
-			"id": "eb286e19-f511-4afd-87d8-2fe28c510e16",
+			"id": "a87de664-f2b8-42cb-899e-11fcccf32ab1",
 			"value": "",
 			"disabled": true
 		}
