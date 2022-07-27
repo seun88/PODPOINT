@@ -451,97 +451,6 @@
 			"response": []
 		},
 		{
-			"name": "Delete",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "95cb35f5-88dc-45a1-a8cf-fe73abbb2448",
-						"exec": [
-							"pm.test(\"Successful POST request\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
-							"});\r",
-							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});\r",
-							"pm.test(\"Body matches Created\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"Created\");\r",
-							"});\r",
-							"\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"id": "fa097312-d07d-418b-8ce3-430c961c097d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true,
-				"disabledSystemHeaders": {
-					"accept": true
-				}
-			},
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": {
-						"token": ""
-					}
-				},
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "Cookie",
-						"value": "{{podtoken}}",
-						"type": "text"
-					},
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{herouk URL}}booking/:id",
-					"host": [
-						"{{herouk URL}}booking"
-					],
-					"path": [
-						":id"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "1188",
-							"disabled": true
-						}
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "821"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "PING health check",
 			"id": "2ef3208e-2504-4f49-ba3c-7ba75f794f9d",
 			"protocolProfileBehavior": {
@@ -588,7 +497,7 @@
 	],
 	"variable": [
 		{
-			"id": "7d0bad15-4b58-446c-a4bd-e31f7def046b",
+			"id": "dd7649f0-91c4-42dc-9208-7a3b18ee884a",
 			"value": "",
 			"disabled": true
 		}
