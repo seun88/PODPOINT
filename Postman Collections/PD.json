@@ -61,7 +61,11 @@
 							"});\r",
 							"pm.test(\"Response time is less than 200ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});"
+							"});\r",
+							"\r",
+							"const response = pm.response.json();\r",
+							"\r",
+							"pm.globals.set(\"token\",response.token);"
 						],
 						"type": "text/javascript"
 					}
@@ -497,7 +501,7 @@
 	],
 	"variable": [
 		{
-			"id": "dd7649f0-91c4-42dc-9208-7a3b18ee884a",
+			"id": "eb286e19-f511-4afd-87d8-2fe28c510e16",
 			"value": "",
 			"disabled": true
 		}
