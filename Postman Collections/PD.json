@@ -58,9 +58,7 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"pm.test(\"Successful POST request\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
-							"});\r",
+							"\r",
 							"pm.test(\"Response time is less than 200ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
 							"});\r",
@@ -503,7 +501,7 @@
 	],
 	"variable": [
 		{
-			"id": "a87de664-f2b8-42cb-899e-11fcccf32ab1",
+			"id": "b965a6fd-4599-4160-97de-a44f2062c6e3",
 			"value": "",
 			"disabled": true
 		}
